@@ -1,0 +1,23 @@
+# build dirs: 
+build/
+build-*/
+cmake-build-*/
+
+# objs and execs"
+*.o
+*.a
+*.so
+*.out
+
+# res:
+results/
+
+# editor files:
+.vscode/
+.idea/
+*.swp
+*~
+
+# debug:
+core
+core.*
