@@ -1,9 +1,11 @@
 # build dirs: 
 /build/
-/CMakeFiles/
-/CMakeCache.txt
-/cmake_install.cmake
-/Makefile
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
 
 
 # objs and execs"
@@ -11,6 +13,21 @@
 *.a
 *.so
 *.out
+
+# latex temp files:
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.nav
+*.snm
+
+# python:
+__pycache__/
+*.pyc
+.venv/
 
 # res:
 results/
@@ -24,3 +41,4 @@ results/
 # debug:
 core
 core.*
+.DS_Store
