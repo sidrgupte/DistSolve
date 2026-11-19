@@ -1,9 +1,6 @@
 
 # DistSolve — Parallel Poisson Solvers
 
-Parallel Computing | Stony Brook University  
-Project 3, Problem 3.4
-
 ## Overview
 
 C++17 and MPI implementation of Jacobi and Gauss–Seidel methods for the 2D Poisson equation using a five-point finite-difference stencil.
